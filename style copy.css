@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FRAME-45 */
+
+.container {
+  border: 1px solid red;
+}
+
+.navigation {
+  display: flex;
+
+  height: 48px;
+  justify-content: space-between;
+  background-color: #f5f5f7cc;
+}
+
+.nav-items {
+  display: none;
+}
+
+.overlay {
+  display: flex;
+  justify-content: space-between;
+}
+
+.donating {
+  display: flex;
+  height: 37px;
+  width: 328px;
+  margin: 18px 31px 18px 31px;
+}
+/* SECTION */
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  height: 500px;
+  background-image: url(./iphone-section1.jpg);
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.frame-24 {
+  display: flex;
+  flex-direction: column;
+  width: 241px;
+  height: 62px;
+  margin-top: 250px;
+  justify-content: center;
+  align-items: center;
+}
+.iphone {
+  display: flex;
+  flex-direction: column;
+  width: 205px;
+  height: 22px;
+  color: #f5f5f7;
+  font-size: 30px;
+  gap: 4px;
+  justify-content: center;
+}
+.hello {
+  font-size: 18px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 241px;
+  height: 36px;
+  color: white;
+  align-items: center;
+  font-size: 14px;
+}
+.learn {
+  display: flex;
+  width: 107px;
+  height: 36px;
+  background-color: #0071e3;
+  border-radius: 30px;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.buy {
+  display: flex;
+  color: #0071e3;
+  width: 66px;
+  height: 36px;
+  border: 1px solid #0071e3;
+  border-radius: 30px;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+}
+/* SECTION-2 */
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+  background-image: url(./bg-sec-2.png);
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.iphone-2 {
+  display: flex;
+  flex-direction: column;
+  width: 205px;
+  height: 22px;
+  color: #f5f5f7;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.frame-25 {
+  display: flex;
+  flex-direction: column;
+  width: 241px;
+  height: 62px;
+  justify-content: center;
+  align-items: center;
+  margin: 36px 74px 350px 75px;
+  gap: 30px;
+}
+.learn-2 {
+  display: flex;
+  width: 107px;
+  height: 36px;
+  background-color: white;
+  border-radius: 30px;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+.buy-2 {
+  display: flex;
+  color: white;
+  width: 66px;
+  height: 36px;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+}
+/* SECTION-3 */
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  height: 500px;
+  background-image: url(./bg-sec-3.png);
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  /* gap: 16px; */
+}
+.iphone-3 {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  color: black;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.frame-35 {
+  display: flex;
+  flex-direction: column;
+  width: 241px;
+  height: 62px;
+  justify-content: center;
+  align-items: center;
+  margin: 36px 74px 350px 75px;
+  gap: 14px;
+}
+.hello-3 {
+  color: #0090f7;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+/* SECTION-4 */
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  height: 500px;
+  background-image: url(./bg-sec-4.png);
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.iphone-4 {
+  display: flex;
+  flex-direction: column;
+  width: 241px;
+  height: 91px;
+  color: #f5f5f7;
+  font-size: 30px;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hello-4 {
+  font-size: 18px;
+}
+.gap {
+  gap: 30px;
+}
+
+/* SECTION-5 */
+.section-5 {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  height: 500px;
+  background-image: url(./bg-sec-5.png);
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  /* gap: 16px; */
+}
+.margin-top {
+  margin-top: 46px;
+}
+/* SECTION-6 */
+.section-6 {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  height: 500px;
+  background-image: url(./bg-sec-6.jpg);
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  /* gap: 16px; */
+}
+.font-style {
+  font-weight: 700;
+  font-weight: bold;
+  color: #1d1d1f;
+}
+.font-stylee {
+  font-weight: 700;
+  font-weight: bold;
+  color: #f5f5f7;
+  width: 300px;
+}
+
+/* SECTION-7 */
+.section-7 {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  height: 500px;
+  background-image: url(./bg-sec-7.png);
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  /* gap: 16px; */
+}
+.iphone-7 {
+  display: flex;
+  flex-direction: column;
+  width: 257px;
+  color: black;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  text-align: center;
+}
+/* SECTION-8 */
+.section-8 {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  height: 500px;
+  background-image: url(./bg-sec-8.jpg);
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+}
+.font-styleee {
+  font-weight: 700;
+  font-weight: bold;
+  color: #1d1d1f;
+  width: 300px;
+}
+.iphone-8 {
+  display: flex;
+  flex-direction: column;
+  /* width: 314px; */
+  color: black;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  text-align: center;
+}
+.margin-top {
+  margin-top: 16px;
+}
+/* SECTION-9 */
+.section-9 {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  height: 500px;
+  background-image: url(./bg-sec-9.jpg);
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+}
+.iphone-9 {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  text-align: center;
+}
+.font-styleeee {
+  font-weight: 700;
+  font-weight: bold;
+  color: #1d1d1f;
+  font-size: 28px;
+}
+.learn-9 {
+  display: flex;
+  width: 150px;
+  height: 36px;
+  background-color: #0071e3;
+  border-radius: 30px;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.i-logo {
+  display: flex;
+  gap: 8px;
+}
+
+@media only screen and (min-width: 768px) {
+  .section {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .nav-items {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .container {
+    width: 1920px;
+    margin: 0 auto;
+  }
+}
+.header {
+  grid-area: header;
+  height: 100px;
+  width: 80px;
+}
+.item-1 {
+  grid-area: menu;
+  height: 100px;
+  width: 80px;
+}
+.item-2 {
+  grid-area: main;
+  height: 100px;
+}
+.item-3 {
+  grid-area: main;
+  height: 100px;
+  width: 80px;
+}
+.item-4 {
+  grid-area: main;
+  height: 100px;
+  width: 80px;
+}
+.grid-container {
+  background-color: #80beeb;
+  display: grid;
+  height: 500px;
+  grid-template-areas:
+    "header"
+    "menu" "main";
+}
