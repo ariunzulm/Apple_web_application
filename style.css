@@ -8,18 +8,26 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+.margin {
+  margin: 12px 0;
+}
 /* GRID */
-/* .grid-container {
+.grid-container {
   display: grid;
   background-color: #ffffff;
-  padding: 12px; */
-/* } */
-/* .hidden-mobile {
+  gap: 12px;
+}
+.card {
+  background-color: #f1f1f1;
+  border: 1px solid white;
+}
+.hidden-mobile {
   display: none;
 }
 .hidden-web {
   display: none;
-} */
+}
+
 /* NAVIGATION */
 
 .navigation {
@@ -227,7 +235,7 @@ h3 {
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-top: 299px;
+  padding-top: 289px;
   margin: 0 auto;
   gap: 16px;
 }
@@ -505,7 +513,7 @@ h3 {
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding-top: 367px;
+    padding-top: 410px;
     color: #0071e3;
   }
   .subcontent-4 {
@@ -520,6 +528,17 @@ h3 {
     width: 100%;
     height: 650px;
     color: #f5f5f7;
+    gap: 16px;
+  }
+  .content-5 {
+    display: flex;
+    flex-direction: column;
+    width: 241px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 389px;
+    margin: 0 auto;
     gap: 16px;
   }
   .subcontent-5 {
@@ -539,9 +558,7 @@ h3 {
     color: #f5f5f7;
     gap: 16px;
   }
-  .hidden-web {
-    display: none;
-  }
+
   .section-7 {
     display: flex;
     flex-direction: column;
@@ -560,7 +577,7 @@ h3 {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 650px;
     /* color: #1d1d1f; */
     gap: 16px;
   }
@@ -589,6 +606,15 @@ h3 {
   .section-11 {
     display: none;
   }
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+  .hidden-web {
+    display: none;
+  }
+  .hidden-mobile {
+    display: flex;
+  }
 }
 /* MEDIA-WEB */
 
@@ -596,6 +622,14 @@ h3 {
   .container {
     width: 100%;
     margin: 0 auto;
+  }
+  .navigation {
+    display: flex;
+    width: 100%;
+    height: 48px;
+    gap: 24px;
+    margin: 0 auto;
+    background-color: #f5f5f7cc;
   }
   .nav-menu {
     list-style: none;
